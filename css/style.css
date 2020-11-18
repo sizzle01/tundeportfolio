@@ -450,9 +450,11 @@ header {
 }
 
 .btn_group {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     bottom: 35%;
-    right: 5%;
+    left: 25%;
 }
 
 .btnp {
@@ -466,19 +468,19 @@ header {
     cursor: pointer;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 450px) {
     .btnp {
-        padding: 5px;
-        font-size: 16px;
-        font-weight: 500;
-        height: 3rem;
-        width: 8rem;
+        padding: 4px;
+        font-size: 14px;
+        font-weight: 490;
+        height: 2.5rem;
+        width: 6.5rem;
         cursor: pointer;
     }
     .btn_group {
         position: absolute;
-        bottom: 35%;
-        right: 14%;
+        bottom: 32%;
+        left: 28%;
     }
 }
 
