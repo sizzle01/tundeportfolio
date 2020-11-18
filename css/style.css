@@ -444,10 +444,42 @@ header {
     opacity: .5;
 }
 
+.port1 {
+    position: relative;
+    margin: 5px;
+}
+
 .btn_group {
     position: absolute;
-    top: 0;
-    right: 0;
+    bottom: 35%;
+    right: 5%;
+}
+
+.btnp {
+    background-color: #e9d207;
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 549;
+    height: 3rem;
+    width: 12rem;
+    cursor: pointer;
+}
+
+@media (max-width: 550px) {
+    .btnp {
+        padding: 5px;
+        font-size: 16px;
+        font-weight: 500;
+        height: 3rem;
+        width: 8rem;
+        cursor: pointer;
+    }
+    .btn_group {
+        position: absolute;
+        bottom: 35%;
+        right: 14%;
+    }
 }
 
 
